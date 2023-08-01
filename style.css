@@ -15,11 +15,26 @@ main {
     margin: 0 auto;
 }
 h2 {
-    margin-bottom: 6px;
+    margin-bottom: 4px;    
 }
 p {
-    margin-bottom: 6px;
+    margin-bottom: 2px;
     line-height: 30px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: blue;
+}
+.subtitle {
+    margin-top: 10px;
+    font-size: 22px;
+}
+.comment {
+    font-size: 20px;
+    line-height: 24px;
 }
 ul {
     list-style-type: none;
