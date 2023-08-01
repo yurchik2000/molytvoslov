@@ -1,0 +1,29 @@
+*,
+:before,
+:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+}
+main {
+    max-width: 1200px;
+    padding: 5px;
+    margin: 0 auto;
+}
+h2 {
+    margin-bottom: 6px;
+}
+p {
+    margin-bottom: 4px;
+    line-height: 24px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin-bottom: 6px;
+}
