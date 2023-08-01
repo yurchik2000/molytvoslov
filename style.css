@@ -11,14 +11,14 @@ body {
 }
 main {
     max-width: 1200px;
-    padding: 5px;
+    padding: 10px;
     margin: 0 auto;
 }
 h2 {
     margin-bottom: 6px;
 }
 p {
-    margin-bottom: 4px;
+    margin-bottom: 6px;
     line-height: 30px;
 }
 ul {
