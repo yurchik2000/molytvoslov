@@ -16,9 +16,10 @@ main {
 }
 h2 {
     margin-bottom: 4px;    
+    margin-top: 2px;
 }
 p {
-    margin-bottom: 2px;
+    margin-bottom: 4px;    
     line-height: 30px;
 }
 a {
@@ -29,7 +30,7 @@ a:hover {
     color: blue;
 }
 .subtitle {
-    margin-top: 10px;
+    margin-top: 12px;
     font-size: 22px;
 }
 .comment {
