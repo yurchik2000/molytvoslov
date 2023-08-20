@@ -32,6 +32,7 @@ a:hover {
 .subtitle {
     margin-top: 12px;
     font-size: 22px;
+    font-weight: bold;
 }
 .comment {
     font-size: 20px;
