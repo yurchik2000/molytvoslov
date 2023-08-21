@@ -28,6 +28,7 @@ a {
 }
 a:hover {
     color: blue;
+    transition: color 0.5s;
 }
 .subtitle {
     margin-top: 12px;
@@ -46,4 +47,42 @@ li {
 }
 .red {
     color: red;
+}
+.hide {
+    display: none;
+}
+.akafist__title,
+.psalmy__title,
+.chasoslov__title {
+    cursor: pointer;
+}
+.akafist__title:hover,
+.psalmy__title:hover,
+.chasoslov__title:hover {
+    color: blue;
+    transition: color 0.5s;
+}
+.akafist__list,
+.chasoslov__list,
+.psalmy__list {
+    margin-left: 6px;
+}
+.title__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.language__inner {
+    display: flex;
+}
+.trans,
+.ukr {
+    margin-right: 2px;
+    cursor: pointer;
+}
+.active {
+    color: blue;
+}
+.psalov33__content-trans,
+.psalov33__content-ukr {
+    font-size: 22px;
 }
