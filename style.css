@@ -1,3 +1,5 @@
+@import url('fonts/fonts.css');
+
 *,
 :before,
 :after {
@@ -8,6 +10,11 @@
 
 body {
     font-size: 22px;
+}
+.cs-style p {
+    font-family: triucs;
+    font-size: 26px;        
+    line-height: 150%;
 }
 main {
     max-width: 1200px;
@@ -31,12 +38,10 @@ a:hover {
     transition: color 0.5s;
 }
 .subtitle {
-    margin-top: 12px;
-    font-size: 22px;
+    margin-top: 12px;    
     font-weight: bold;
 }
-.comment {
-    font-size: 20px;
+.comment {    
     line-height: 24px;
 }
 ul {
@@ -75,19 +80,17 @@ li {
     display: flex;
 }
 .trans,
-.ukr {
+.ukr,
+.cs {
     margin-right: 2px;
     cursor: pointer;
 }
 .active {
     color: blue;
 }
-.psalov33__content-trans,
-.psalov33__content-ukr {
+/* .psalom33__content-trans,
+.psalom33__content-ukr {
     font-size: 22px;
-}
-.translater {
-    font-size: 14px;
-    margin-top: 4px;
-    text-align: right;
-}
+} */
+
+
