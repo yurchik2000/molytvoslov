@@ -38,3 +38,4 @@ document.querySelector('.cs')?.addEventListener('click', ()=> {
     document.querySelector('.psalom__content-trans').classList.add('hide');    
     document.querySelector('.psalom__content-cs').classList.remove('hide');
 })
+
