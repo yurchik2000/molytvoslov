@@ -1,7 +1,21 @@
 const akafistTitle = document.querySelector('.akafist__title');
+const calendarTitle = document.querySelector('.calendar__title');
+let currentDateInner = document.querySelector('.current__date');
+let date = new Date();
+const currentMonth = date.getMonth();
+const currentDate = date.getDate();
+const currentDay = date.getDay();
+const monthList = ['Січень', 'Лютий', 'Березень', 'Квітень', 'Травень', 'Червень', 'Липень', 'Серпень', 'Вересень', 'Жовтень', 'Листопад', 'Груден'];
+const dayList = ['неділя','понеділок', 'вівторок','середа','четвер','п"ятниця','субота']
+currentDateInner.textContent = monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
+
 
 if (akafistTitle) akafistTitle.addEventListener('click', ()=> {    
     document.querySelector('.akafist__list').classList.toggle('hide')
+})
+
+if (calendarTitle) calendarTitle.addEventListener('click', ()=> {    
+    document.querySelector('.calendar__list').classList.toggle('hide')
 })
 
 document.querySelector('.chasoslov__title')?.addEventListener('click', ()=> {    

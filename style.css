@@ -93,4 +93,6 @@ li {
     font-size: 22px;
 } */
 
-
+.calendar__title {
+    cursor: pointer;
+}
