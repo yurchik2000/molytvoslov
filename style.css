@@ -96,3 +96,11 @@ li {
 .calendar__title {
     cursor: pointer;
 }
+.month {
+    cursor: pointer;
+    width: min-content;
+}
+.month:hover {
+    background-color: lightcyan;
+    transition: background-color 0.3s;
+}
