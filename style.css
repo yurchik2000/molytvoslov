@@ -16,6 +16,9 @@ body {
     font-size: 26px;        
     line-height: 150%;
 }
+.cs-style .comment {    
+    font-size: 22px;            
+}
 main {
     max-width: 1200px;
     padding: 10px;

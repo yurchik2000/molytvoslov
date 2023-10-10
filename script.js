@@ -7,7 +7,7 @@ const currentDate = date.getDate();
 const currentDay = date.getDay();
 const monthList = ['Січень', 'Лютий', 'Березень', 'Квітень', 'Травень', 'Червень', 'Липень', 'Серпень', 'Вересень', 'Жовтень', 'Листопад', 'Груден'];
 const dayList = ['неділя','понеділок', 'вівторок','середа','четвер','п"ятниця','с   убота']
-currentDateInner.textContent = monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
+if (currentDateInner) currentDateInner.textContent = monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
 
 
 if (akafistTitle) akafistTitle.addEventListener('click', ()=> {    
