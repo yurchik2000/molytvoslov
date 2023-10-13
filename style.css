@@ -11,6 +11,9 @@
 body {
     font-size: 22px;
 }
+.paslom__title {
+    margin-right: 20px;
+}
 .cs-style p {
     font-family: triucs;
     font-size: 26px;        
@@ -94,11 +97,6 @@ li {
 .active {
     color: blue;
 }
-/* .psalom33__content-trans,
-.psalom33__content-ukr {
-    font-size: 22px;
-} */
-
 .calendar__title {
     cursor: pointer;
 }
@@ -109,4 +107,12 @@ li {
 .month:hover {
     background-color: lightcyan;
     transition: background-color 0.3s;
+}
+@media (max-width: 760px) {
+    .title__inner {
+        flex-wrap: wrap;
+    }
+    .language__inner {
+        margin-left: auto;
+    }
 }
