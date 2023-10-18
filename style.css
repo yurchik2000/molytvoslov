@@ -62,6 +62,9 @@ li {
 .red {
     color: red;
 }
+.gray {
+    color: gray;
+}
 .hide {
     display: none;
 }
