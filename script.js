@@ -6,7 +6,7 @@ const currentMonth = date.getMonth();
 const currentDate = date.getDate();
 const currentDay = date.getDay();
 const monthList = ['Січень', 'Лютий', 'Березень', 'Квітень', 'Травень', 'Червень', 'Липень', 'Серпень', 'Вересень', 'Жовтень', 'Листопад', 'Груден'];
-const dayList = ['неділя','понеділок', 'вівторок','середа','четвер','п"ятниця','с   убота']
+const dayList = ['неділя','понеділок', 'вівторок','середа','четвер','п"ятниця','субота']
 if (currentDateInner) currentDateInner.textContent = monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
 
 
