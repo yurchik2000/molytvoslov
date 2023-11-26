@@ -70,18 +70,21 @@ li {
 }
 .akafist__title,
 .psalmy__title,
-.chasoslov__title {
+.chasoslov__title,
+.bogosluzhbovi__title {
     cursor: pointer;
 }
 .akafist__title:hover,
 .psalmy__title:hover,
-.chasoslov__title:hover {
+.chasoslov__title:hover,
+.bogosluzhbovi__title:hover {
     color: blue;
     transition: color 0.5s;
 }
 .akafist__list,
 .chasoslov__list,
-.psalmy__list {
+.psalmy__list,
+.bogosluzhbovi__list {
     margin-left: 6px;
 }
 .title__inner {
@@ -111,11 +114,22 @@ li {
     background-color: lightcyan;
     transition: background-color 0.3s;
 }
+.paragraph {
+    margin-left: 15px;
+}
+.october__title,
+.november__title,
+.december__title {
+    border-bottom: 3px solid blue;
+}
 @media (max-width: 760px) {
     .title__inner {
         flex-wrap: wrap;
     }
     .language__inner {
         margin-left: auto;
+    }
+    .paragraph {
+        margin-left: 10px;
     }
 }

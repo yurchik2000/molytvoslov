@@ -5,9 +5,9 @@ let date = new Date();
 const currentMonth = date.getMonth();
 const currentDate = date.getDate();
 const currentDay = date.getDay();
-const monthList = ['Січень', 'Лютий', 'Березень', 'Квітень', 'Травень', 'Червень', 'Липень', 'Серпень', 'Вересень', 'Жовтень', 'Листопад', 'Груден'];
+const monthList = ['Січень', 'Лютий', 'Березень', 'Квітень', 'Травень', 'Червень', 'Липень', 'Серпень', 'Вересень', 'жовтень', 'листопад', 'груден'];
 const dayList = ['неділя','понеділок', 'вівторок','середа','четвер','п"ятниця','субота']
-if (currentDateInner) currentDateInner.textContent = monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
+if (currentDateInner) currentDateInner.textContent = 'Сьогодні: ' + monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
 
 
 if (akafistTitle) akafistTitle.addEventListener('click', ()=> {    
@@ -35,6 +35,9 @@ document.querySelector('.chasoslov__title')?.addEventListener('click', ()=> {
     
 document.querySelector('.psalmy__title')?.addEventListener('click', ()=> {    
     document.querySelector('.psalmy__list').classList.toggle('hide')
+})
+document.querySelector('.bogosluzhbovi__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.bogosluzhbovi__list').classList.toggle('hide')
 })
 
 document.querySelector('.ukr')?.addEventListener('click', ()=> {    
