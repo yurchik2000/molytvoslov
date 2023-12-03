@@ -5,7 +5,7 @@ let date = new Date();
 const currentMonth = date.getMonth();
 const currentDate = date.getDate();
 const currentDay = date.getDay();
-const monthList = ['Січень', 'Лютий', 'Березень', 'Квітень', 'Травень', 'Червень', 'Липень', 'Серпень', 'Вересень', 'жовтень', 'листопад', 'груден'];
+const monthList = ['січень', 'лютий', 'березень', 'квітень', 'травень', 'червень', 'липень', 'серпень', 'вересень', 'жовтень', 'листопад', 'грудень'];
 const dayList = ['неділя','понеділок', 'вівторок','середа','четвер','п"ятниця','субота']
 if (currentDateInner) currentDateInner.textContent = 'Сьогодні: ' + monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
 
