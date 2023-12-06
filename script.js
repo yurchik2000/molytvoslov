@@ -39,6 +39,10 @@ document.querySelector('.psalmy__title')?.addEventListener('click', ()=> {
 document.querySelector('.bogosluzhbovi__title')?.addEventListener('click', ()=> {    
     document.querySelector('.bogosluzhbovi__list').classList.toggle('hide')
 })
+document.querySelector('.kolyadky__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.kolyadky__list').classList.toggle('hide')
+})
+
 
 document.querySelector('.ukr')?.addEventListener('click', ()=> {    
     document.querySelector('.ukr').classList.add('active');
