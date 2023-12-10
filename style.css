@@ -122,7 +122,8 @@ li {
 }
 .october__title,
 .november__title,
-.december__title {
+.december__title,
+.january__title {
     border-bottom: 3px solid blue;
 }
 .kolyadka__title{
@@ -139,6 +140,11 @@ li {
 }
 .noty__img{
     width: 100%;
+}
+.back {
+    background-color: lightskyblue;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 @media (max-width: 760px) {
     .title__inner {

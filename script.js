@@ -9,6 +9,13 @@ const monthList = ['січень', 'лютий', 'березень', 'квіте
 const dayList = ['неділя','понеділок', 'вівторок','середа','четвер','п"ятниця','субота']
 if (currentDateInner) currentDateInner.textContent = 'Сьогодні: ' + monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
 
+const december = document.querySelector('.december__list');
+for (let prop of december.childNodes) {    
+    if (prop.textContent.includes(currentDate)) {        
+        prop.classList.add('back');
+    }
+}
+
 
 if (akafistTitle) akafistTitle.addEventListener('click', ()=> {    
     document.querySelector('.akafist__list').classList.toggle('hide')
@@ -28,6 +35,11 @@ document.querySelector('.november__title')?.addEventListener('click', ()=> {
 document.querySelector('.december__title')?.addEventListener('click', ()=> {    
     document.querySelector('.december__list').classList.toggle('hide')
 })
+document.querySelector('.january__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.january__list').classList.toggle('hide')
+})
+
+
 
 document.querySelector('.chasoslov__title')?.addEventListener('click', ()=> {    
     document.querySelector('.chasoslov__list').classList.toggle('hide')
