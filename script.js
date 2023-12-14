@@ -10,9 +10,11 @@ const dayList = ['неділя','понеділок', 'вівторок','сер
 if (currentDateInner) currentDateInner.textContent = 'Сьогодні: ' + monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
 
 const december = document.querySelector('.december__list');
-for (let prop of december.childNodes) {    
-    if (prop.textContent.includes(currentDate)) {        
-        prop.classList.add('back');
+if (december) {
+    for (let prop of december.childNodes) {    
+        if (prop.textContent.includes(currentDate)) {        
+            prop.classList.add('back');
+        }
     }
 }
 
