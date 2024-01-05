@@ -146,6 +146,13 @@ li {
     padding-top: 2px;
     padding-bottom: 2px;
 }
+.dvichi__inner{
+    display: flex;
+    align-items: center;
+}
+.dvichi__content{
+    margin-left: 10px;    
+}
 @media (max-width: 760px) {
     .title__inner {
         flex-wrap: wrap;
