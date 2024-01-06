@@ -18,6 +18,18 @@ if (december) {
     }
 }
 
+const january = document.querySelector('.january__list');
+if (january) {
+    for (let prop of january.childNodes) {    
+        if (prop.textContent.includes(currentDate)) {        
+            prop.classList.add('back');
+            console.log(prop.nextSibling.nextSibling);
+            prop.nextSibling.nextSibling.classList.remove('hide');            
+        }        
+    }
+}
+
+
 
 if (akafistTitle) akafistTitle.addEventListener('click', ()=> {    
     document.querySelector('.akafist__list').classList.toggle('hide')
