@@ -24,7 +24,7 @@ if (january) {
         if (prop.textContent.includes(currentDate)) {        
             prop.classList.add('back');
             console.log(prop.nextSibling.nextSibling);
-            prop.nextSibling.nextSibling.classList.remove('hide');            
+            if (prop.nextSibling.nextSibling) prop.nextSibling.nextSibling.classList.remove('hide');            
         }        
     }
 }
