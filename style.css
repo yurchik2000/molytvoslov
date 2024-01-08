@@ -25,6 +25,9 @@ body {
 .center {
     text-align: center;
 }
+.right {
+    text-align: right;
+}
 main {
     max-width: 1200px;
     padding: 10px;
