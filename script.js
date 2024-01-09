@@ -10,25 +10,23 @@ const dayList = ['неділя','понеділок', 'вівторок','сер
 if (currentDateInner) currentDateInner.textContent = 'Сьогодні: ' + monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
 
 const december = document.querySelector('.december__list');
-if (december) {
-    for (let prop of december.childNodes) {    
-        if (prop.textContent.includes(currentDate)) {        
-            prop.classList.add('back');
-        }
-    }
-}
+// if (december) {
+//     for (let prop of december.childNodes) {    
+//         if (prop.textContent.includes(currentDate)) {        
+//             prop.classList.add('back');
+//         }
+//     }
+// }
 
 const january = document.querySelector('.january__list');
 if (january) {
-    for (let prop of january.childNodes) {    
-        if (prop.textContent.includes(currentDate)) {        
-            prop.classList.add('back');
-            console.log(prop.nextSibling.nextSibling);
+    for (let prop of january.childNodes) {                    
+        if (prop.textContent.slice(0, currentDate.toString().length) == currentDate.toString()) {
+            prop.classList.add('back');            
             if (prop.nextSibling.nextSibling) prop.nextSibling.nextSibling.classList.remove('hide');            
         }        
     }
 }
-
 
 
 if (akafistTitle) akafistTitle.addEventListener('click', ()=> {    
