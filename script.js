@@ -10,6 +10,7 @@ const dayList = ['неділя','понеділок', 'вівторок','сер
 if (currentDateInner) currentDateInner.textContent = 'Сьогодні: ' + monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
 
 const december = document.querySelector('.december__list');
+const february = document.querySelector('.february__list');
 // if (december) {
 //     for (let prop of december.childNodes) {    
 //         if (prop.textContent.includes(currentDate)) {        
@@ -49,6 +50,9 @@ document.querySelector('.december__title')?.addEventListener('click', ()=> {
 })
 document.querySelector('.january__title')?.addEventListener('click', ()=> {    
     document.querySelector('.january__list').classList.toggle('hide')
+});
+document.querySelector('.february__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.february__list').classList.toggle('hide')
 })
 
 

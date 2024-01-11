@@ -126,7 +126,8 @@ li {
 .october__title,
 .november__title,
 .december__title,
-.january__title {
+.january__title,
+.february__title {
     border-bottom: 3px solid blue;
 }
 .kolyadka__title{
