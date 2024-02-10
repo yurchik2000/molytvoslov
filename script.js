@@ -11,6 +11,8 @@ if (currentDateInner) currentDateInner.textContent = 'Сьогодні: ' + mont
 
 const december = document.querySelector('.december__list');
 const february = document.querySelector('.february__list');
+const march = document.querySelector('.march__list');
+const april = document.querySelector('.april__list');
 // if (december) {
 //     for (let prop of december.childNodes) {    
 //         if (prop.textContent.includes(currentDate)) {        
@@ -20,7 +22,7 @@ const february = document.querySelector('.february__list');
 // }
 
 const january = document.querySelector('.january__list');
-if (january) {
+if (february) {
     for (let prop of january.childNodes) {                    
         if (prop.textContent.slice(0, currentDate.toString().length) == currentDate.toString()) {
             prop.classList.add('back');            
@@ -53,6 +55,12 @@ document.querySelector('.january__title')?.addEventListener('click', ()=> {
 });
 document.querySelector('.february__title')?.addEventListener('click', ()=> {    
     document.querySelector('.february__list').classList.toggle('hide')
+})
+document.querySelector('.march__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.march__list').classList.toggle('hide')
+})
+document.querySelector('.april__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.april__list').classList.toggle('hide')
 })
 
 
