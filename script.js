@@ -78,6 +78,9 @@ document.querySelector('.bogosluzhbovi__title')?.addEventListener('click', ()=> 
 document.querySelector('.kolyadky__title')?.addEventListener('click', ()=> {    
     document.querySelector('.kolyadky__list').classList.toggle('hide')
 })
+document.querySelector('.pisni__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.pisni__list').classList.toggle('hide')
+})
 
 
 document.querySelector('.ukr')?.addEventListener('click', ()=> {    

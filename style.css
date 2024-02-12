@@ -31,6 +31,7 @@ body {
 main {
     max-width: 1200px;
     padding: 10px;
+    padding-bottom: 10px;
     margin: 0 auto;
 }
 h2 {
@@ -75,14 +76,16 @@ li {
 .psalmy__title,
 .chasoslov__title,
 .bogosluzhbovi__title,
-.kolyadky__title {
+.kolyadky__title,
+.pisni__title {
     cursor: pointer;
 }
 .akafist__title:hover,
 .psalmy__title:hover,
 .chasoslov__title:hover,
 .bogosluzhbovi__title:hover,
-.kolyadky__title:hover {
+.kolyadky__title:hover,
+.pisni__title:hover {
     color: blue;
     transition: color 0.5s;
 }
@@ -132,7 +135,8 @@ li {
 .april__title {
     border-bottom: 3px solid blue;
 }
-.kolyadka__title{
+.kolyadka__title,
+.pisnya__title {
     text-align: center;
 }
 .song__box2{
@@ -140,7 +144,8 @@ li {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.kolyadky p{
+.kolyadky p,
+.pisni p{
     font-size: 32px;
     line-height: 40px;
 }
@@ -171,7 +176,8 @@ li {
     }
 }
 @media (max-width: 445px) {
-    .kolyadky p{
+    .kolyadky p,
+    .pisni p{
         font-size: 26px;
         line-height: 30px;
     }
