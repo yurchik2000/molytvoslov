@@ -93,7 +93,8 @@ li {
 .chasoslov__list,
 .psalmy__list,
 .bogosluzhbovi__list,
-.kolyadky__list  {
+.kolyadky__list,
+.pisni__list  {
     margin-left: 6px;
 }
 .title__inner {
