@@ -84,29 +84,29 @@ document.querySelector('.pisni__title')?.addEventListener('click', ()=> {
 
 
 document.querySelector('.ukr')?.addEventListener('click', ()=> {    
-    document.querySelector('.ukr').classList.add('active');
-    document.querySelector('.trans').classList.remove('active');
-    document.querySelector('.cs').classList.remove('active');
-    document.querySelector('.psalom__content-ukr').classList.remove('hide');
-    document.querySelector('.psalom__content-trans').classList.add('hide');    
-    document.querySelector('.psalom__content-cs').classList.add('hide');
+    if (document.querySelector('.ukr')) document.querySelector('.ukr').classList.add('active');
+    if (document.querySelector('.trans')) document.querySelector('.trans').classList.remove('active');
+    if (document.querySelector('.cs')) document.querySelector('.cs').classList.remove('active');
+    if (document.querySelector('.psalom__content-ukr')) document.querySelector('.psalom__content-ukr').classList.remove('hide');
+    if (document.querySelector('.psalom__content-trans')) document.querySelector('.psalom__content-trans').classList.add('hide');    
+    if (document.querySelector('.psalom__content-cs')) document.querySelector('.psalom__content-cs').classList.add('hide');
 })
 
 document.querySelector('.trans')?.addEventListener('click', ()=> {        
-    document.querySelector('.ukr').classList.remove('active');
-    document.querySelector('.trans').classList.add('active');
-    document.querySelector('.cs').classList.remove('active');
-    document.querySelector('.psalom__content-ukr').classList.add('hide');
-    document.querySelector('.psalom__content-trans').classList.remove('hide');    
-    document.querySelector('.psalom__content-cs').classList.add('hide');
+    if (document.querySelector('.ukr')) document.querySelector('.ukr').classList.remove('active');
+    if (document.querySelector('.trans')) document.querySelector('.trans').classList.add('active');
+    if (document.querySelector('.cs')) document.querySelector('.cs').classList.remove('active');
+    if (document.querySelector('.psalom__content-ukr')) document.querySelector('.psalom__content-ukr').classList.add('hide');
+    if (document.querySelector('.psalom__content-trans')) document.querySelector('.psalom__content-trans').classList.remove('hide');    
+    if (document.querySelector('.psalom__content-cs')) document.querySelector('.psalom__content-cs').classList.add('hide');
 })
 
 document.querySelector('.cs')?.addEventListener('click', ()=> {
-    document.querySelector('.cs').classList.add('active');
-    document.querySelector('.ukr').classList.remove('active');
-    document.querySelector('.trans').classList.remove('active');
-    document.querySelector('.psalom__content-ukr').classList.add('hide');
-    document.querySelector('.psalom__content-trans').classList.add('hide');    
-    document.querySelector('.psalom__content-cs').classList.remove('hide');
+    if (document.querySelector('.cs')) document.querySelector('.cs').classList.add('active');
+    if (document.querySelector('.ukr')) document.querySelector('.ukr').classList.remove('active');
+    if (document.querySelector('.trans')) document.querySelector('.trans').classList.remove('active');
+    if (document.querySelector('.psalom__content-ukr')) document.querySelector('.psalom__content-ukr').classList.add('hide');
+    if (document.querySelector('.psalom__content-trans')) document.querySelector('.psalom__content-trans').classList.add('hide');    
+    if (document.querySelector('.psalom__content-cs')) document.querySelector('.psalom__content-cs').classList.remove('hide');
 })
 
