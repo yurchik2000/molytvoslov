@@ -77,7 +77,8 @@ li {
 .chasoslov__title,
 .bogosluzhbovi__title,
 .kolyadky__title,
-.pisni__title {
+.pisni__title,
+.prichastya__title {
     cursor: pointer;
 }
 .akafist__title:hover,
@@ -85,7 +86,8 @@ li {
 .chasoslov__title:hover,
 .bogosluzhbovi__title:hover,
 .kolyadky__title:hover,
-.pisni__title:hover {
+.pisni__title:hover,
+.prichastya__title:hover {
     color: blue;
     transition: color 0.5s;
 }
@@ -94,7 +96,8 @@ li {
 .psalmy__list,
 .bogosluzhbovi__list,
 .kolyadky__list,
-.pisni__list  {
+.pisni__list,
+.prichastya__list  {
     margin-left: 6px;
 }
 .title__inner {

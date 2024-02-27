@@ -1,5 +1,6 @@
 const akafistTitle = document.querySelector('.akafist__title');
 const calendarTitle = document.querySelector('.calendar__title');
+const prichastyaTitle = document.querySelector('.prichastya__title');
 let currentDateInner = document.querySelector('.current__date');
 let date = new Date();
 const currentMonth = date.getMonth();
@@ -35,7 +36,9 @@ if (february) {
 if (akafistTitle) akafistTitle.addEventListener('click', ()=> {    
     document.querySelector('.akafist__list').classList.toggle('hide')
 })
-
+if (prichastyaTitle) akafistTitle.addEventListener('click', ()=> {    
+    document.querySelector('.prichastya__list').classList.toggle('hide')
+})
 if (calendarTitle) calendarTitle.addEventListener('click', ()=> {    
     document.querySelector('.calendar__list').classList.toggle('hide')
 })
@@ -46,7 +49,6 @@ document.querySelector('.october__title')?.addEventListener('click', ()=> {
 document.querySelector('.november__title')?.addEventListener('click', ()=> {    
     document.querySelector('.november__list').classList.toggle('hide')
 })
-
 document.querySelector('.december__title')?.addEventListener('click', ()=> {    
     document.querySelector('.december__list').classList.toggle('hide')
 })
@@ -64,9 +66,11 @@ document.querySelector('.april__title')?.addEventListener('click', ()=> {
 })
 
 
-
 document.querySelector('.chasoslov__title')?.addEventListener('click', ()=> {    
     document.querySelector('.chasoslov__list').classList.toggle('hide')
+})
+document.querySelector('.prichastya__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.prichastya__list').classList.toggle('hide')
 })
     
 document.querySelector('.psalmy__title')?.addEventListener('click', ()=> {    
