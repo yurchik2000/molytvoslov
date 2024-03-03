@@ -169,6 +169,12 @@ li {
     margin-left: 10px;    
 }
 @media (max-width: 760px) {
+    .cs-style p {        
+        font-size: 28px;                
+    }
+    body {
+        font-size: 24px;
+    }
     .title__inner {
         flex-wrap: wrap;
     }

@@ -36,7 +36,12 @@ if (february) {
 if (akafistTitle) akafistTitle.addEventListener('click', ()=> {    
     document.querySelector('.akafist__list').classList.toggle('hide')
 })
-if (prichastyaTitle) akafistTitle.addEventListener('click', ()=> {    
+
+// document.querySelector('.prichastya__title')?.addEventListener('click', ()=> {    
+//     document.querySelector('.prichastya__list').classList.toggle('hide')
+// })
+
+if (prichastyaTitle) prichastyaTitle.addEventListener('click', ()=> {        
     document.querySelector('.prichastya__list').classList.toggle('hide')
 })
 if (calendarTitle) calendarTitle.addEventListener('click', ()=> {    
@@ -68,9 +73,6 @@ document.querySelector('.april__title')?.addEventListener('click', ()=> {
 
 document.querySelector('.chasoslov__title')?.addEventListener('click', ()=> {    
     document.querySelector('.chasoslov__list').classList.toggle('hide')
-})
-document.querySelector('.prichastya__title')?.addEventListener('click', ()=> {    
-    document.querySelector('.prichastya__list').classList.toggle('hide')
 })
     
 document.querySelector('.psalmy__title')?.addEventListener('click', ()=> {    
