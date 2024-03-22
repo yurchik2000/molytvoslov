@@ -1,19 +1,47 @@
-.input__name {
+.zdrav__content {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid lightgray;
+}
+.input__name,
+.input__name-u {
     padding: 5px 10px;
     font-size: 18px;
     border-radius: 5px;
 }
 .btn__addName,
-.btn__editName {
+.btn__editName,
+.btn__insertName,
+.btn__addName-u,
+.btn__editName-u,
+.btn__insertName-u {
     cursor: pointer;
     padding: 5px 10px;
     font-size: 18px;
     border-radius: 5px;
 }
+.btn__addName,
+.btn__addName-u{
+    background: lightcyan;
+}
+.btn__editName,
+.btn__editName-u{
+    background: lightgoldenrodyellow;
+}
+.btn__insertName,
+.btn__insertName-u {
+    background: lightgreen;
+}
 .btn__addName:hover,
 .btn__delete:hover,
 .btn__edit:hover,
-.btn__editName:hover{
+.btn__editName:hover,
+.btn__insertName:hover,
+.btn__addName-u:hover,
+.btn__delete-u:hover,
+.btn__edit-u:hover,
+.btn__editName-u:hover,
+.btn__insertName-u:hover{
     background: lightblue;    
     transition: all 0.3s;
 }
@@ -21,14 +49,19 @@
     display: flex;
 }
 .btn__delete,
-.btn__edit {
+.btn__edit,
+.btn__insert,
+.btn__delete-u,
+.btn__edit-u,
+.btn__insert-u {
     font-size: 10px;
     line-height: 10px;
     padding: 5px 5px;
     margin-left: 10px;
     cursor: pointer;
 }
-.names__list {
+.names__list,
+.names__list-u {
     display: flex;
     flex-wrap: wrap;
 }
@@ -41,7 +74,8 @@
     }    
   }
 @media (max-width: 650px) {
-    .names__list {
+    .names__list,
+    .names__list-u {
         display: block;        
     }
     .nameItem {
