@@ -14,8 +14,10 @@ body {
 .paslom__title {
     margin-right: 20px;
 }
-.cs-style p {
+.cs-style {
     font-family: triucs;
+}
+.cs-style p {    
     font-size: 26px;        
     line-height: 150%;
 }
