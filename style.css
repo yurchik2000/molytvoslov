@@ -11,8 +11,14 @@
 body {
     font-size: 22px;
 }
+html {    
+    scroll-behavior: smooth;
+}
 .paslom__title {
     margin-right: 20px;
+}
+.ua-style {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .cs-style {
     font-family: triucs;
@@ -58,6 +64,13 @@ a:hover {
 }
 .comment {    
     line-height: 24px;
+}
+.denni__molytvy-list {
+    display: flex;
+    
+}
+.denni__molytvy-item {
+    margin: 0 10px;
 }
 ul {
     list-style-type: none;
@@ -138,7 +151,8 @@ li {
 .january__title,
 .february__title,
 .march__title,
-.april__title {
+.april__title,
+.may__title {
     border-bottom: 3px solid blue;
 }
 .kolyadka__title,
