@@ -67,8 +67,16 @@ a:hover {
 }
 .denni__molytvy-list {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    
+        
+}
+#rankovi,
+#rankovi__korotki,
+#poludnya,
+#pislya__poludnya,
+#vechirni {
+    background: lightcyan;
 }
 .denni__molytvy-item {
     margin: 2px 10px;
