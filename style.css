@@ -5,14 +5,15 @@
 :after {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 
 body {
-    font-size: 22px;
+    font-size: 22px;    
 }
 html {    
     scroll-behavior: smooth;
+    /* hyphens: none; */
 }
 .paslom__title {
     margin-right: 20px;
@@ -98,6 +99,7 @@ li {
 }
 .black {
     color: black;
+    font-weight: normal;
 }
 .akafist__title,
 .psalmy__title,
