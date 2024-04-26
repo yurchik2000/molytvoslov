@@ -120,3 +120,4 @@ document.querySelector('.cs')?.addEventListener('click', ()=> {
     if (document.querySelector('.psalom__content-cs')) document.querySelector('.psalom__content-cs').classList.remove('hide');
 })
 
+

@@ -96,6 +96,9 @@ li {
 .hide {
     display: none;
 }
+.black {
+    color: black;
+}
 .akafist__title,
 .psalmy__title,
 .chasoslov__title,
