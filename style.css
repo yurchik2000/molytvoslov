@@ -200,6 +200,18 @@ li {
 .dvichi__content{
     margin-left: 10px;    
 }
+.text__ukr {
+    font-size: 2upx;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+.list__glas{
+    display: flex;
+    justify-content: space-between;
+}
+.list__glas li{
+    
+}
 @media (max-width: 760px) {
     .cs-style p {        
         font-size: 28px;                
