@@ -167,8 +167,9 @@ li {
 .february__title,
 .march__title,
 .april__title,
-.may__title
-.june__title {
+.may__title,
+.june__title,
+.july__title {
     border-bottom: 3px solid blue;
 }
 .kolyadka__title,

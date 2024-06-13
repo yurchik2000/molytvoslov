@@ -77,6 +77,9 @@ document.querySelector('.may__title')?.addEventListener('click', ()=> {
 document.querySelector('.june__title')?.addEventListener('click', ()=> {    
     document.querySelector('.june__list').classList.toggle('hide')
 })
+document.querySelector('.july__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.july__list').classList.toggle('hide')
+})
 
 
 document.querySelector('.chasoslov__title')?.addEventListener('click', ()=> {    
