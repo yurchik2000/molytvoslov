@@ -16,6 +16,8 @@ const march = document.querySelector('.march__list');
 const april = document.querySelector('.april__list');
 const may = document.querySelector('.may__list');
 const june = document.querySelector('.june__list');
+const july = document.querySelector('.july__list');
+const august = document.querySelector('.august__list');
 // if (december) {
 //     for (let prop of december.childNodes) {    
 //         if (prop.textContent.includes(currentDate)) {        
@@ -79,6 +81,9 @@ document.querySelector('.june__title')?.addEventListener('click', ()=> {
 })
 document.querySelector('.july__title')?.addEventListener('click', ()=> {    
     document.querySelector('.july__list').classList.toggle('hide')
+})
+document.querySelector('.august__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.august__list').classList.toggle('hide')
 })
 
 

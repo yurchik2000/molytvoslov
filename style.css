@@ -169,7 +169,8 @@ li {
 .april__title,
 .may__title,
 .june__title,
-.july__title {
+.july__title,
+.august__title {
     border-bottom: 3px solid blue;
 }
 .kolyadka__title,
@@ -212,6 +213,9 @@ li {
 }
 .list__glas li{
     
+}
+#sluzhba_1>p {
+    font-size: 24px;
 }
 @media (max-width: 760px) {
     .cs-style p {        
