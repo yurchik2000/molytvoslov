@@ -11,6 +11,10 @@
 body {
     font-size: 22px;    
 }
+h2 {
+    font-size: 34px;    
+    font-weight: normal;
+}
 html {    
     scroll-behavior: smooth;
     /* hyphens: none; */
@@ -77,7 +81,8 @@ a:hover {
 #poludnya,
 #pislya__poludnya,
 #vechirni,
-#peredsnom {
+#peredsnom,
+#serednochi {
     background: lightcyan;
 }
 .denni__molytvy-item {
@@ -170,7 +175,8 @@ li {
 .may__title,
 .june__title,
 .july__title,
-.august__title {
+.august__title,
+.september__title {
     border-bottom: 3px solid blue;
 }
 .kolyadka__title,
