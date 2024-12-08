@@ -10,7 +10,6 @@ const monthList = ['січень', 'лютий', 'березень', 'квіте
 const dayList = ['неділя','понеділок', 'вівторок','середа','четвер','п"ятниця','субота']
 if (currentDateInner) currentDateInner.textContent = 'Сьогодні: ' + monthList[currentMonth] + ', ' + currentDate + ' (' + dayList[currentDay] + ')';
 
-const december = document.querySelector('.december__list');
 const february = document.querySelector('.february__list');
 const march = document.querySelector('.march__list');
 const april = document.querySelector('.april__list');
@@ -19,6 +18,9 @@ const june = document.querySelector('.june__list');
 const july = document.querySelector('.july__list');
 const august = document.querySelector('.august__list');
 const september = document.querySelector('.september__list');
+const october = document.querySelector('.october__list');
+const november = document.querySelector('.november__list');
+const december = document.querySelector('.december__list');
 // if (december) {
 //     for (let prop of december.childNodes) {    
 //         if (prop.textContent.includes(currentDate)) {        
@@ -88,6 +90,15 @@ document.querySelector('.august__title')?.addEventListener('click', ()=> {
 })
 document.querySelector('.september__title')?.addEventListener('click', ()=> {    
     document.querySelector('.september__list').classList.toggle('hide')
+})
+document.querySelector('.october__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.october__list').classList.toggle('hide')
+})
+document.querySelector('.november__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.november__list').classList.toggle('hide')
+})
+document.querySelector('.december__title')?.addEventListener('click', ()=> {    
+    document.querySelector('.december__list').classList.toggle('hide')
 })
 
 
