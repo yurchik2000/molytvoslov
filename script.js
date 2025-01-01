@@ -55,15 +55,7 @@ if (calendarTitle) calendarTitle.addEventListener('click', ()=> {
     document.querySelector('.calendar__list').classList.toggle('hide')
 })
 
-document.querySelector('.october__title')?.addEventListener('click', ()=> {    
-    document.querySelector('.october__list').classList.toggle('hide')
-})
-document.querySelector('.november__title')?.addEventListener('click', ()=> {    
-    document.querySelector('.november__list').classList.toggle('hide')
-})
-document.querySelector('.december__title')?.addEventListener('click', ()=> {    
-    document.querySelector('.december__list').classList.toggle('hide')
-})
+
 document.querySelector('.january__title')?.addEventListener('click', ()=> {    
     document.querySelector('.january__list').classList.toggle('hide')
 });
@@ -98,6 +90,7 @@ document.querySelector('.november__title')?.addEventListener('click', ()=> {
     document.querySelector('.november__list').classList.toggle('hide')
 })
 document.querySelector('.december__title')?.addEventListener('click', ()=> {    
+    console.log(1);
     document.querySelector('.december__list').classList.toggle('hide')
 })
 
